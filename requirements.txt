@@ -1,0 +1,15 @@
+# 基本依赖
+pyside6>=6.4.0
+mysql-connector-python>=8.0.0
+openai>=1.0.0
+
+# 数据处理和可视化依赖
+pandas>=1.5.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 可选依赖 (如果需要高级可视化)
+plotly>=5.13.0
+
+python-dotenv==1.0.0
+requests==2.31.0 
