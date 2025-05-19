@@ -5,7 +5,7 @@
 ## 功能特点
 
 - 图形化界面操作
-- 通过OpenAI API将自然语言转换为SQL查询
+- 通过LLM将自然语言转换为SQL查询
 - 自动保存数据库连接信息
 - 查询结果表格显示
 - 结果数据可视化展示
@@ -19,7 +19,7 @@
 pip install -r requirements.txt
 ```
 
-2. 配置OpenAI API密钥:
+2. 配置LLM API:
    - 在程序设置中填写API密钥和基础URL
    - 或者创建`.env`文件添加:
    ```
@@ -68,7 +68,7 @@ python main.py
 
 - Python 3.8+
 - MySQL数据库
-- 有效的OpenAI API密钥/一定的电脑配置
+- 有效的LLM API
 
 ## 许可证
 
